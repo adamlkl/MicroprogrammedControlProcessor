@@ -14,7 +14,7 @@ This microprocessor's instruction set includes the following operations:
 
 Abbreviation    | Instruction
 ----------------|---------------------------------------------------------------------------------------------
-**ADI**         |  Add immediate constant
+**ADI**         |   Add immediate constant
 **LD**          |   Load to value from memory
 **ST**          |   Store a value in memory
 **INC**         |   Increment
@@ -109,6 +109,4 @@ The ALU takes care of logical operations with the Logical Circuit and care of th
 There are many different _"MUX"s_ and decoders used throughout the processor as well. The most important are MUX B, C, D, M & S which we have mentioned when discussing the fields in the micro-operations.
 
 ## Testing
-There are testbenches for each component to make sure larger components were built with strong foundations of smaller components that worked for every edge case.  
-  The main testbench for the processor itself just has a clock and a reset signal. The reset signal clears all the registers and sets the CAR and Program Counter to zero. Once these are initialised, the processor runs itself through the instructions that have been hardcoded in memory for the trivial program.  
-  To see careful stepping through of each instruction/micro-operation for the program in the testbench, please see the <a href="https://github.com/nating/microprocessor/blob/master/ProgramDemonstration.pages">Program Demonstration<a>.
+Every components used in the project is tested using testbenches, and the results are documented in the 
