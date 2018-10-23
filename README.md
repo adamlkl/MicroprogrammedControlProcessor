@@ -45,7 +45,7 @@ Once the processor is started up, the _Program Counter_ points to the first addr
   
 Here is a screenshot of the code for memory. Each memory location holds an instruction of the Trivial Program. The comments show the index in memory, the assembly code, the pseudo code and the instruction in bits:
   
-<img src="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/Images/MemoryContents.PNG">  
+<img src="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/Images/Microprocessor%20Image%20.png">  
 
 ### Control Memory
 Control memory is 256x28 bits. It has all of the micro-operations for each instruction. Micro-operations are more complicated than their corresponding instructions. Micro-operations are 28 bits long. They have 16 different fields:
