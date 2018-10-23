@@ -1,7 +1,7 @@
 # microprocessor
 A Microcoded Instruction Set Processor written in VHDL.
 
-<img src="https://github.com/nating/microprocessor/blob/master/Images/Full-Processor-Schematic.png" width="600">
+<img src="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/Images/Microprocessor%20Image%20.png">
 
 ## Introduction
 This project is a many VHDL components put together to make a microcoded instruction set processor in which programs can be written to memory for the processor to run.
@@ -45,7 +45,7 @@ Once the processor is started up, the _Program Counter_ points to the first addr
   
 Here is a screenshot of the code for memory. Each memory location holds an instruction of the Trivial Program. The comments show the index in memory, the assembly code, the pseudo code and the instruction in bits:
   
-<img src="https://github.com/nating/microprocessor/blob/master/Images/Trivial-Program.png">  
+<img src="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/Images/MemoryContents.PNG">  
 
 ### Control Memory
 Control memory is 256x28 bits. It has all of the micro-operations for each instruction. Micro-operations are more complicated than their corresponding instructions. Micro-operations are 28 bits long. They have 16 different fields:
@@ -72,7 +72,7 @@ Each of these fields represent signals sent out to different components in the p
 
 Each micro-operation for the instruction set has its own values for these fields to make sure that the components around the processor behave in the correct manner. The value for each micro-operation is described in this Screenshot of a comment at the top of the code for Control Memory:
 
-<img src="https://github.com/nating/microprocessor/blob/master/Images/Micro-operations.png">
+<img src="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/Images/MemoryContents.PNG">
 
 ### Components
 There are 29 components that make up the microcoded processor. Here are some details of the more important/larger components, that we have not yet discussed:
