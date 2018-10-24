@@ -109,4 +109,5 @@ The ALU takes care of logical operations with the Logical Circuit and care of th
 There are many different _"MUX"s_ and decoders used throughout the processor as well. The most important are MUX B, C, D, M & S which we have mentioned when discussing the fields in the micro-operations.
 
 ## Testing
-Every components used in the project is tested using testbenches, and the results are documented in the 
+Every components used in the project is tested using testbenches, and the results are documented in 
+I haven't written my explanation yet, but credits to nating for his description.
