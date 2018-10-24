@@ -111,11 +111,12 @@ There are many different _"MUX"s_ and decoders used throughout the processor as 
 ## Testing
 Every components used in the project is tested using testbenches, and the results are documented in <a href="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/Instruction%20Processor%20Testbenches.pdf">Instruction Processor Testbenches<a>.
 <br />
-<img src="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/Images/ControlMemoryContents.PNG">
-<img src="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/Images/ControlMemoryContents.PNG">
-<img src="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/Images/ControlMemoryContents.PNG">
-<img src="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/Images/ControlMemoryContents.PNG">
-<img src="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/Images/ControlMemoryContents.PNG">
-<img src="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/Images/ControlMemoryContents.PNG">
+<img src="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/TestBenchSimulationResults/Instruction%20Processor%20Testbenches-images/Instruction%20Processor%20Testbenches1.jpg">
+<img src="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/TestBenchSimulationResults/Instruction%20Processor%20Testbenches-images/Instruction%20Processor%20Testbenches2.jpg">
+<img src="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/TestBenchSimulationResults/Instruction%20Processor%20Testbenches-images/Instruction%20Processor%20Testbenches3.jpg">
+<img src="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/TestBenchSimulationResults/Instruction%20Processor%20Testbenches-images/Instruction%20Processor%20Testbenches4.jpg">
+<img src="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/TestBenchSimulationResults/Instruction%20Processor%20Testbenches-images/Instruction%20Processor%20Testbenches5.jpg">
+<img src="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/TestBenchSimulationResults/Instruction%20Processor%20Testbenches-images/Instruction%20Processor%20Testbenches6.jpg">
+<img src="https://github.com/adamlkl/MicroprogrammedControlProcessor/blob/master/TestBenchSimulationResults/Instruction%20Processor%20Testbenches-images/Instruction%20Processor%20Testbenches7.jpg">
 
 I haven't written my explanation yet, but credits to nating for his description.
